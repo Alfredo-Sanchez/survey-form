@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(
+        45deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)),
+     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+
+     font-family: 'Poppins', sans-serif;
+     color: #fff;
+     font-size: 1.2em;
+
+}
+
+.container{
+    max-width: 740px;
+    margin: 2em auto;
+}
+
+.header{
+    text-align: center;
+    
+}
+
+.header__title{
+    margin: 0;
+    padding: .5em 0 0 0;
+}
+
+.header__description{
+    font-style: italic;
+    font-weight: 200;
+    margin: 0 0 1.2em 0;
+}
+
+.form{
+    border: 1px solid red;
+    background-color: #1b1b31cc;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form__field{
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form__label{
+    padding: .5em;
+}
+
+.form__input,
+.form__select{
+    height: 40px;
+    font-size: 1em;
+    padding-left: 0.5em;
+    border-radius: 0.25rem;
+}
+
+.form__textarea{
+    min-height: 120px;
+    resize: vertical;
+    font-size: 1.1em;
+}
+
+.form__submit{
+    margin-top: 2em;
+    padding: .5em;
+    color: #fff;
+    font-size: 1em;
+    background-color:#37af65;
+    border: none;
+    border-radius: .25rem;
+}
+
